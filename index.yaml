@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   cluster-api-operator:
   - apiVersion: v2
+    appVersion: 0.21.0
+    created: "2025-06-23T14:44:30.631769+09:00"
+    description: Cluster API Operator
+    digest: f370734237f5903d9798b5604639ef3de64acacadd9ab7ebecb4237bf52b34d4
+    name: cluster-api-operator
+    type: application
+    urls:
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.21.0/cluster-api-operator-0.21.0.tgz
+    version: 0.21.0
+  - apiVersion: v2
     appVersion: 0.20.0
     created: "2025-05-28T11:51:22.831448+03:00"
     description: Cluster API Operator
@@ -9,7 +19,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.20.0/cluster-api-operator-0.20.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.20.0/cluster-api-operator-0.20.0.tgz
     version: 0.20.0
   - apiVersion: v2
     appVersion: 0.19.0
@@ -19,7 +29,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.19.0/cluster-api-operator-0.19.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.19.0/cluster-api-operator-0.19.0.tgz
     version: 0.19.0
   - apiVersion: v2
     appVersion: 0.18.1
@@ -29,7 +39,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.18.1/cluster-api-operator-0.18.1.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.18.1/cluster-api-operator-0.18.1.tgz
     version: 0.18.1
   - apiVersion: v2
     appVersion: 0.18.0
@@ -39,7 +49,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.18.0/cluster-api-operator-0.18.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.18.0/cluster-api-operator-0.18.0.tgz
     version: 0.18.0
   - apiVersion: v2
     appVersion: 0.17.1
@@ -49,7 +59,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.17.1/cluster-api-operator-0.17.1.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.17.1/cluster-api-operator-0.17.1.tgz
     version: 0.17.1
   - apiVersion: v2
     appVersion: 0.17.0
@@ -59,7 +69,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.17.0/cluster-api-operator-0.17.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.17.0/cluster-api-operator-0.17.0.tgz
     version: 0.17.0
   - apiVersion: v2
     appVersion: 0.16.0
@@ -69,7 +79,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.16.0/cluster-api-operator-0.16.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.16.0/cluster-api-operator-0.16.0.tgz
     version: 0.16.0
   - apiVersion: v2
     appVersion: 0.15.1
@@ -79,7 +89,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.15.1/cluster-api-operator-0.15.1.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.15.1/cluster-api-operator-0.15.1.tgz
     version: 0.15.1
   - apiVersion: v2
     appVersion: 0.15.0
@@ -89,7 +99,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.15.0/cluster-api-operator-0.15.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.15.0/cluster-api-operator-0.15.0.tgz
     version: 0.15.0
   - apiVersion: v2
     appVersion: 0.14.0
@@ -99,7 +109,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.14.0/cluster-api-operator-0.14.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.14.0/cluster-api-operator-0.14.0.tgz
     version: 0.14.0
   - apiVersion: v2
     appVersion: 0.13.0
@@ -109,7 +119,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.13.0/cluster-api-operator-0.13.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.13.0/cluster-api-operator-0.13.0.tgz
     version: 0.13.0
   - apiVersion: v2
     appVersion: 0.12.0
@@ -119,7 +129,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.12.0/cluster-api-operator-0.12.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.12.0/cluster-api-operator-0.12.0.tgz
     version: 0.12.0
   - apiVersion: v2
     appVersion: 0.11.0
@@ -129,7 +139,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.11.0/cluster-api-operator-0.11.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.11.0/cluster-api-operator-0.11.0.tgz
     version: 0.11.0
   - apiVersion: v2
     appVersion: 0.10.1
@@ -144,7 +154,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.10.1/cluster-api-operator-0.10.1.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.10.1/cluster-api-operator-0.10.1.tgz
     version: 0.10.1
   - apiVersion: v2
     appVersion: 0.10.0
@@ -159,7 +169,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.10.0/cluster-api-operator-0.10.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.10.0/cluster-api-operator-0.10.0.tgz
     version: 0.10.0
   - apiVersion: v2
     appVersion: 0.9.2
@@ -174,7 +184,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.9.2/cluster-api-operator-0.9.2.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.9.2/cluster-api-operator-0.9.2.tgz
     version: 0.9.2
   - apiVersion: v2
     appVersion: 0.9.1
@@ -189,7 +199,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.9.1/cluster-api-operator-0.9.1.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.9.1/cluster-api-operator-0.9.1.tgz
     version: 0.9.1
   - apiVersion: v2
     appVersion: 0.9.0
@@ -204,7 +214,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.9.0/cluster-api-operator-0.9.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.9.0/cluster-api-operator-0.9.0.tgz
     version: 0.9.0
   - apiVersion: v2
     appVersion: 0.8.1
@@ -219,7 +229,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.8.1/cluster-api-operator-0.8.1.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.8.1/cluster-api-operator-0.8.1.tgz
     version: 0.8.1
   - apiVersion: v2
     appVersion: 0.8.0
@@ -234,7 +244,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.8.0/cluster-api-operator-0.8.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.8.0/cluster-api-operator-0.8.0.tgz
     version: 0.8.0
   - apiVersion: v2
     appVersion: 0.7.0
@@ -249,7 +259,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.7.0/cluster-api-operator-0.7.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.7.0/cluster-api-operator-0.7.0.tgz
     version: 0.7.0
   - apiVersion: v2
     appVersion: 0.6.0
@@ -264,7 +274,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.6.0/cluster-api-operator-0.6.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.6.0/cluster-api-operator-0.6.0.tgz
     version: 0.6.0
   - apiVersion: v2
     appVersion: 0.5.1
@@ -279,7 +289,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.5.1/cluster-api-operator-0.5.1.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.5.1/cluster-api-operator-0.5.1.tgz
     version: 0.5.1
   - apiVersion: v2
     appVersion: 0.5.0
@@ -294,7 +304,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.5.0/cluster-api-operator-0.5.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.5.0/cluster-api-operator-0.5.0.tgz
     version: 0.5.0
   - apiVersion: v2
     appVersion: 0.4.0
@@ -304,7 +314,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.4.0/cluster-api-operator-0.4.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.4.0/cluster-api-operator-0.4.0.tgz
     version: 0.4.0
   - apiVersion: v2
     appVersion: 0.3.0
@@ -314,7 +324,7 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.3.0/cluster-api-operator-0.3.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.3.0/cluster-api-operator-0.3.0.tgz
     version: 0.3.0
   - apiVersion: v2
     appVersion: 0.2.0
@@ -324,6 +334,6 @@ entries:
     name: cluster-api-operator
     type: application
     urls:
-    - https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/v0.2.0/cluster-api-operator-0.2.0.tgz
+    - https://github.com/kahirokunn/cluster-api-operator/releases/download/v0.2.0/cluster-api-operator-0.2.0.tgz
     version: 0.2.0
-generated: "2025-05-28T11:51:22.831564+03:00"
+generated: "2025-06-23T14:44:30.631965+09:00"

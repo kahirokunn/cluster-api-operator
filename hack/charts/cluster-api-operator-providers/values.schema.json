@@ -56,10 +56,6 @@
     },
     "configSecret": {
       "type": "object"
-    },
-    "enableHelmHook": {
-      "type": "boolean",
-      "default": false
     }
   }
 }

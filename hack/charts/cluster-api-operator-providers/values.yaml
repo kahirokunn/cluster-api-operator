@@ -45,4 +45,3 @@ fetchConfig: {}
 # ---
 # Common configuration secret options
 configSecret: {}
-enableHelmHook: false  # Provider CRsではHookは不要

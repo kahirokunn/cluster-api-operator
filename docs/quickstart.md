@@ -57,8 +57,8 @@ helm install capi-operator capi-operator/cluster-api-operator --create-namespace
 
 Docker provider can be replaced by any provider supported by [clusterctl](https://cluster-api.sigs.k8s.io/reference/providers.html#infrastructure).
 
-Other options for installing Cluster API Operator are described in [full documentation](https://github.com/kubernetes-sigs/cluster-api-operator/blob/main/docs/README.md#installation).
- 
+Other options for installing Cluster API Operator are described in [full documentation](https://github.com/kahirokunn/cluster-api-operator/blob/main/docs/README.md#installation).
+
 # Example API Usage
 
 Deploy latest version of core Cluster API components:

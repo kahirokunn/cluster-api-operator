@@ -4,7 +4,7 @@ metadata:
   name: operator
 spec:
   version: {{ .TagName }}
-  homepage: https://github.com/kubernetes-sigs/cluster-api-operator
+  homepage: https://github.com/kahirokunn/cluster-api-operator
   shortDescription: Use this clusterctl plugin to bootstrap a management cluster for Cluster API with the Cluster API Operator.
   description: |
     Use this clusterctl plugin to bootstrap a management cluster for Cluster API with the Cluster API Operator.
@@ -13,30 +13,30 @@ spec:
       matchLabels:
         os: darwin
         arch: amd64
-    {{addURIAndSha "https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/{{ .TagName }}/clusterctl-operator_{{ .TagName }}_darwin_amd64.tar.gz" .TagName }}
+    {{addURIAndSha "https://github.com/kahirokunn/cluster-api-operator/releases/download/{{ .TagName }}/clusterctl-operator_{{ .TagName }}_darwin_amd64.tar.gz" .TagName }}
     bin: bin/clusterctl-operator
   - selector:
       matchLabels:
         os: darwin
         arch: arm64
-    {{addURIAndSha "https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/{{ .TagName }}/clusterctl-operator_{{ .TagName }}_darwin_arm64.tar.gz" .TagName }}
+    {{addURIAndSha "https://github.com/kahirokunn/cluster-api-operator/releases/download/{{ .TagName }}/clusterctl-operator_{{ .TagName }}_darwin_arm64.tar.gz" .TagName }}
     bin: bin/clusterctl-operator
   - selector:
       matchLabels:
         os: linux
         arch: amd64
-    {{addURIAndSha "https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/{{ .TagName }}/clusterctl-operator_{{ .TagName }}_linux_amd64.tar.gz" .TagName }}
+    {{addURIAndSha "https://github.com/kahirokunn/cluster-api-operator/releases/download/{{ .TagName }}/clusterctl-operator_{{ .TagName }}_linux_amd64.tar.gz" .TagName }}
     bin: bin/clusterctl-operator
   - selector:
       matchLabels:
         os: linux
         arch: arm64
-    {{addURIAndSha "https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/{{ .TagName }}/clusterctl-operator_{{ .TagName }}_linux_arm64.tar.gz" .TagName }}
+    {{addURIAndSha "https://github.com/kahirokunn/cluster-api-operator/releases/download/{{ .TagName }}/clusterctl-operator_{{ .TagName }}_linux_arm64.tar.gz" .TagName }}
     bin: bin/clusterctl-operator
   - selector:
       matchLabels:
         os: windows
         arch: amd64
-    {{addURIAndSha "https://github.com/kubernetes-sigs/cluster-api-operator/releases/download/{{ .TagName }}/clusterctl-operator_{{ .TagName }}_windows_amd64.tar.gz" .TagName }}
+    {{addURIAndSha "https://github.com/kahirokunn/cluster-api-operator/releases/download/{{ .TagName }}/clusterctl-operator_{{ .TagName }}_windows_amd64.tar.gz" .TagName }}
     bin: bin/clusterctl-operator.exe
 

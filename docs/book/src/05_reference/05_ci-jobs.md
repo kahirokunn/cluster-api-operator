@@ -9,7 +9,7 @@ It also documents the cluster-api-operator specific configuration in test-infra.
 
 The dashboards for the ProwJobs can be found here: https://testgrid.k8s.io/sig-cluster-lifecycle-cluster-api-operator
 
-More details about ProwJob configurations can be found [here](https://github.com/kubernetes/test-infra/tree/master/config/jobs/kubernetes-sigs/cluster-api-operator).
+More details about ProwJob configurations can be found [here](https://github.com/kubernetes/test-infra/tree/master/config/jobs/kahirokunn/cluster-api-operator).
 
 ### Presubmits
 
@@ -31,7 +31,7 @@ GitHub Presubmit Workflows:
   * Verifies the PR titles have a valid format, i.e. contains one of the valid icons.
 * PR dependabot (run on dependabot PRs)
   * Regenerates Go modules and code.
-  
+
 Other Github workflows
 * release (runs when tags are pushed)
   * Creates a GitHub release with release notes for the tag.
@@ -53,7 +53,7 @@ Prow Periodics:
 
 * config/jobs/image-pushing/k8s-staging-cluster-api.yaml
   * Configures postsubmit job to push images and manifests.
-* config/jobs/kubernetes-sigs/cluster-api-operator/
+* config/jobs/kahirokunn/cluster-api-operator/
   * Configures Cluster API Operator presubmit and periodic jobs.
 * config/testgrids/kubernetes/sig-cluster-lifecycle/config.yaml
   * Configures Cluster API Operator testgrid dashboards.

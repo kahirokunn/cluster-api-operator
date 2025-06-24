@@ -20,7 +20,7 @@ after = ["fs-summary"]
 
 [output.html]
 mathjax-support = true
-git-repository-url = "https://github.com/kubernetes-sigs/cluster-api-operator"
+git-repository-url = "https://github.com/kahirokunn/cluster-api-operator"
 git-repository-icon = "fa-github"
 site-url = "/cluster-api-operator/"
 

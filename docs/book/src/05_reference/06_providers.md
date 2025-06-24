@@ -4,7 +4,7 @@ The Cluster API Operator introduces new API types: `CoreProvider`, `BootstrapPro
 
 The CRDs are scoped to be namespaced, allowing RBAC restrictions to be enforced if needed. This scoping also enables the installation of multiple versions of controllers (grouped within namespaces) in the same management cluster.
 
-Related Golang structs can be found in the [Cluster API Operator repository](https://github.com/kubernetes-sigs/cluster-api-operator/tree/main/api/v1alpha1).
+Related Golang structs can be found in the [Cluster API Operator repository](https://github.com/kahirokunn/cluster-api-operator/tree/main/api/v1alpha1).
 
 Below are the new API types being defined, with shared types used for Spec and Status among the different provider types—Core, Bootstrap, ControlPlane, and Infrastructure:
 

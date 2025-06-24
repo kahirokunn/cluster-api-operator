@@ -12,7 +12,7 @@ The `cluster-api-operator` plugin can be installed using krew, the kubectl plugi
 
 1. Add the cluster-api-operator plugin index to krew:
 ```bash
-kubectl krew index add operator https://github.com/kubernetes-sigs/cluster-api-operator.git
+kubectl krew index add operator https://github.com/kahirokunn/cluster-api-operator.git
 ```
 
 2. Install the cluster-api-operator plugin:

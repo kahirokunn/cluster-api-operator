@@ -32,7 +32,7 @@
 
 ## Overview
 
-The **Cluster API Operator** is a Kubernetes Operator designed to empower cluster administrators to handle the lifecycle of Cluster API providers within a management cluster using a declarative approach. It aims to improve user experience in deploying and managing Cluster API, making it easier to handle day-to-day tasks and automate workflows with GitOps. 
+The **Cluster API Operator** is a Kubernetes Operator designed to empower cluster administrators to handle the lifecycle of Cluster API providers within a management cluster using a declarative approach. It aims to improve user experience in deploying and managing Cluster API, making it easier to handle day-to-day tasks and automate workflows with GitOps.
 
 This operator leverages a declarative API and extends the capabilities of the `clusterctl` CLI, allowing greater flexibility and configuration options for cluster administrators.
 
@@ -74,7 +74,7 @@ After cert-manager is successfully installed, you can proceed installing the Clu
 You can install the Cluster API operator directly by applying the latest release assets:
 
 ```bash
-kubectl apply -f https://github.com/kubernetes-sigs/cluster-api-operator/releases/latest/download/operator-components.yaml
+kubectl apply -f https://github.com/kahirokunn/cluster-api-operator/releases/latest/download/operator-components.yaml
 ```
 
 ### Method 2: Use Helm Charts
@@ -114,7 +114,7 @@ For more complex operations, please refer to our API documentation.
 
 #### Configuring operator deployment using Helm
 
-The operator Helm chart provides multiple ways to configure deployment. For instance, you can update images and image pull secrets for containers, which is important for air-gapped environments. Also you can add labels and annotations, modify resource requests and limits, and so on. For full list of available options take a look at [values.yaml](https://github.com/kubernetes-sigs/cluster-api-operator/blob/main/hack/charts/cluster-api-operator/values.yaml) file.
+The operator Helm chart provides multiple ways to configure deployment. For instance, you can update images and image pull secrets for containers, which is important for air-gapped environments. Also you can add labels and annotations, modify resource requests and limits, and so on. For full list of available options take a look at [values.yaml](https://github.com/kahirokunn/cluster-api-operator/blob/main/hack/charts/cluster-api-operator/values.yaml) file.
 
 #### Helm installation example
 
@@ -251,11 +251,11 @@ kubectl delete infrastructureprovider azure
 
 The Cluster API Operator introduces new API types: `CoreProvider`, `BootstrapProvider`, `ControlPlaneProvider`, `InfrastructureProvider`, and `AddonProvider`. These five provider types share common Spec and Status types, `ProviderSpec` and `ProviderStatus`, respectively.
 
-The CRDs are scoped to be namespaced, allowing RBAC restrictions to be enforced if needed. This scoping also enables the installation of multiple versions of controllers (grouped within namespaces) in the same management cluster. 
+The CRDs are scoped to be namespaced, allowing RBAC restrictions to be enforced if needed. This scoping also enables the installation of multiple versions of controllers (grouped within namespaces) in the same management cluster.
 
 To better understand how the API can be used, please refer to the [Example API Usage section](#example-api-usage).
 
-Related Golang structs can be found in the [Cluster API Operator repository](https://github.com/kubernetes-sigs/cluster-api-operator/tree/main/api/v1alpha1).
+Related Golang structs can be found in the [Cluster API Operator repository](https://github.com/kahirokunn/cluster-api-operator/tree/main/api/v1alpha1).
 
 Below are the new API types being defined, with shared types used for Spec and Status among the different provider types—Core, Bootstrap, ControlPlane, and Infrastructure:
 
@@ -450,7 +450,7 @@ The following sections provide details about `ProviderSpec` and `ProviderStatus`
 6. `SecretReference`: pointer to a secret object, consisting of:
   - Name (string): name of the secret
   - Namespace (optional string): namespace of the secret, defaults to the provider object namespace
-   
+
   YAML example:
   ```yaml
   ...
@@ -556,7 +556,7 @@ metadata:
  namespace: capi-kubeadm-control-plane-system
 spec:
  version: v1.4.3
- configSecret: 
+ configSecret:
    name: capi-variables
  deployment:
    containers:

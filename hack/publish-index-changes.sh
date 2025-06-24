@@ -20,8 +20,8 @@ git add plugins/clusterctl-operator.yaml index.yaml
 # Commit changes with appropriate message
 git commit -m "${COMMIT_MESSAGE}"
 
-# Push changes to origin
-git push origin "${BRANCH_NAME}"
+# Push changes to fork
+git push fork "${BRANCH_NAME}"
 
 if ! command -v gh &> /dev/null
 then

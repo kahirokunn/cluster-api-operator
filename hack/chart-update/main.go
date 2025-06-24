@@ -20,7 +20,7 @@ import (
 
 const (
 	indexFilePath = "../../index.yaml"
-	gitHubOrgName = "kubernetes-sigs"
+	gitHubOrgName = "kahirokunn"
 	repoName      = "cluster-api-operator"
 )
 

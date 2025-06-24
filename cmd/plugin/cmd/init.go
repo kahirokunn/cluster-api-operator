@@ -79,7 +79,7 @@ var initCmd = &cobra.Command{
 		Some providers require secrets to be created before running 'capioperator init'.
 		Refer to the provider documentation, or use 'clusterctl config provider [name]' to get a list of required variables.
 
-		See https://cluster-api.sigs.k8s.io and https://github.com/kubernetes-sigs/cluster-api-operator/blob/main/docs/README.md for more details.`),
+		See https://cluster-api.sigs.k8s.io and https://github.com/kahirokunn/cluster-api-operator/blob/main/docs/README.md for more details.`),
 
 	Example: Examples(`
 		# Initialize CAPI operator only without installing any providers.

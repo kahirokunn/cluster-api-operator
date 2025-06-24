@@ -313,7 +313,7 @@ lint-fix: $(GOLANGCI_LINT) ## Lint the codebase and run auto-fixers if supported
 
 .PHONY: apidiff
 apidiff: $(GO_APIDIFF) ## Check for API differences
-	$(GO_APIDIFF) $(shell git rev-parse origin/main) --print-compatible
+	$(GO_APIDIFF) $(shell git rev-parse fork/main) --print-compatible
 
 .PHONY: verify
 verify:

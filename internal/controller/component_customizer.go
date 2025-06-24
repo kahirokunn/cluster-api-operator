@@ -184,7 +184,7 @@ func findManagerContainer(dSpec *appsv1.DeploymentSpec) *corev1.Container {
 		}
 	}
 
-	// This is for backward compatibility before fixing the issue https://github.com/kubernetes-sigs/cluster-api-operator/issues/787
+	// This is for backward compatibility before fixing the issue https://github.com/kahirokunn/cluster-api-operator/issues/787
 	if len(dSpec.Template.Spec.Containers) > 0 {
 		return &dSpec.Template.Spec.Containers[0]
 	}

@@ -20,6 +20,9 @@ infrastructure: {}
 #   namespace: ""         # Optional
 #   version: ""           # Optional
 #   createNamespace: true # Optional
+#   configSecret:         # Optional
+#     name: some-secret   # Optional
+#     namespace: default  # Optional
 addon: {}
 # helm: {}                # Name, required
 #   namespace: ""         # Optional
@@ -45,3 +48,5 @@ fetchConfig: {}
 # ---
 # Common configuration secret options
 configSecret: {}
+# name: global-secret # Required
+# namespace: default  # Optional

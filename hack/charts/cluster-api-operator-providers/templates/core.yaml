@@ -20,7 +20,7 @@ metadata:
   namespace: {{ $coreNamespace }}
   annotations:
     "argocd.argoproj.io/sync-wave": "2"
-{{- if or $coreVersion $.Values.configSecret.name $.Values.manager }}
+{{- if or $coreVersion $core.configSecret $.Values.configSecret.name $.Values.manager }}
 spec:
 {{- end}}
 {{- if $coreVersion }}
@@ -35,11 +35,12 @@ spec:
     {{- end }}
 {{- end }}
 {{- end }}
-{{- if $.Values.configSecret.name }}
+{{- $configSecret := default $.Values.configSecret $core.configSecret }}
+{{- if $configSecret.name }}
   configSecret:
-    name: {{ $.Values.configSecret.name }}
-    {{- if $.Values.configSecret.namespace }}
-    namespace: {{ $.Values.configSecret.namespace }}
+    name: {{ $configSecret.name }}
+    {{- if $configSecret.namespace }}
+    namespace: {{ $configSecret.namespace }}
     {{- end }}
 {{- end }}
 {{- if $core.manifestPatches }}
